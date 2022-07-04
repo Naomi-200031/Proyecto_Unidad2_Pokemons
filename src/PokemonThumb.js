@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 
 const PokemonThumb = ({id, image, name, type, _callback }) => {
     const style = type + " thumb-container";

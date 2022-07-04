@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PokemonThumb from './PokemonThumb'
+import './App.css'
 
 
 const App = () => {
