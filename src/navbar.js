@@ -14,7 +14,4 @@ const GetIn = () => {
 };
 
 export default GetIn;
-/*</div>
-          <button className="next" onClick={() => getAllPokemons()}>Next</button>
-      </div>
-  */    
+   
