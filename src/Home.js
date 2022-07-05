@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import App from "./App";
 import GetIn from "./navbar";
+import Info from "./Me";
 
 const  First= () => {
     return (
@@ -11,7 +12,7 @@ const  First= () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/homepokemons" element={<App />}></Route>
-                    <Route path="/matricula" element={<App />}></Route>
+                    <Route path="/matricula" element={<Info />}></Route>
                 </Routes>
             </BrowserRouter>
         </div>
